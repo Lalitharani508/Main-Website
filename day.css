@@ -1,0 +1,240 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(172, 17, 147, 0.831);
+    color:white;
+    /* position: fixed; */
+}
+.header-links>a{
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+    padding:8px;
+}
+
+.kDiv,.mDiv,.cDiv{
+    display: none;
+}
+.kDiv,.mDiv,.cDiv{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:15px;
+
+}
+.k:hover + .kDiv{
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top:60px;
+    left:150px;
+    width:160px;
+    height: 300px;
+    padding:10px;
+    margin-bottom:90px;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.5);
+    color: black;
+}
+.m:hover + .mDiv{
+    display: flex !important;
+    flex-direction: column;
+    cursor: pointer;
+    position:absolute;
+    top:60px;
+    left:25%;
+    border-radius: 30px;
+    width:160px;
+    height: 300px;
+    padding:10px;
+    background-color:rgba(255, 255, 255, 0.5);
+    color: black;
+
+}
+.c:hover + .cDiv{
+    display: flex !important;
+    flex-direction: column;
+    cursor: pointer;
+    position:absolute;
+    top:60px;
+    right:15%;
+    border-radius: 30px;
+    width:200px;
+    height: 300px;
+    padding:10px;
+    background-color:rgba(255, 255, 255, 0.5);
+     color: black;
+
+}
+
+
+
+.header-icons>i{
+    padding:10px;
+}
+.announcement>p{
+    text-align: center;
+    padding:10px;
+}
+.sub-heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    padding:50px;
+    
+}
+.dresses{
+    display: flex;
+    gap:10px;
+    padding:0px 120px;
+} 
+.d1>p,.d2>p,.d3>p,.d4>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.d1>img:hover{
+    content: url(https://instore.co.in/cdn/shop/files/image00030_3.jpg?v=1730724090&width=1000);
+}
+.d2>img:hover{
+    content: url(https://instore.co.in/cdn/shop/files/image00036_2.jpg?v=1730724148&width=1000);
+}
+.d3>img:hover{
+    content: url(https://instore.co.in/cdn/shop/files/image00042_2_c6bbcb82-a5de-4fe3-9b26-bbaef705fe39.jpg?v=1730724536&width=1000);
+}
+.d4>img:hover{
+    content: url(https://instore.co.in/cdn/shop/files/image00048_1.jpg?v=1730724624&width=1000);
+}
+
+
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    padding:80px;
+    /* margin-top: -100px; */
+}
+.shop > img{
+    border-radius: 50%;
+    width:200px;
+    box-shadow: 3px 3px 3px lightgrey;
+
+}
+
+.shop>p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.heart1{
+    position: relative;
+    bottom:400px;
+    color:white;
+    left:10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.new{
+    position: relative;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: lightgray;
+    width:50px;
+    padding:5px;
+    bottom:40px;
+    right:10px;
+}
+.stores{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    gap:10px;
+
+
+}
+.stores>div{
+    width:20%;
+    /* margin-top: 20px; */
+}
+.stores > div> img{
+    width:270px;
+}
+.stores > div >.map{
+    background-color:rgb(202, 26, 134);
+    /* font-size: 40px; */
+    padding:15px 30px;
+    width:100px;
+}
+.store1>p,.store2>p,.store3>p,.store4>p{
+    /* text-align: center; */
+    margin-top:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-evenly;
+    height:300px;
+    color:white;
+    background-color: rgba(172, 17, 147, 0.831);
+
+    padding:10px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.footer>.div1 >p,.footer>.div2 >p{
+    padding:8px 0px;
+}
+.footer>.div3>a{
+    display: flex;
+    flex-direction: column; 
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   */
+    text-decoration: none;
+    padding:5px 0px;
+    color:white;
+}
+.footer > .div4{
+    font-size: 30px;
+    padding:40px 0px;
+    text-transform: uppercase;
+}
+.footer>.div4>i{
+    padding:10px 10px;
+    margin-top:10px;
+    background-color: white;
+    color: rgb(153, 19, 95);
+    border-radius: 50%;
+}
+@media screen and (max-width:400px){
+    #header{
+        width:auto;
+    }
+    .header-links{
+        display:none
+
+    }
+    .scroll-image{
+        display: none;
+    }
+    .dresses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
