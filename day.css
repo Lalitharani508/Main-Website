@@ -177,6 +177,9 @@
     color: rgba(172, 17, 147, 0.831);
 
 }
+.stores>.store1>p>i,.stores>.store2>p>i,.stores>.store3>p>i,.stores>.store4>p>i{
+    overflow: visible;
+}
 @media screen and (max-width:400px){
     *{
         overflow: visible;
@@ -532,7 +535,7 @@
     #header{
         display: flex;
         justify-content: space-evenly;
-        padding:0px 20px;
+        padding: 20px 20px;
         /* margin: 0px 20px; */
     }
     .input-checkbox-toggler{
